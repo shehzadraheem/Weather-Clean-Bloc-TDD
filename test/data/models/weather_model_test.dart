@@ -1,9 +1,7 @@
 import 'dart:convert';
-
+import 'package:bloc_weather/features/data/model/weather_model.dart';
+import 'package:bloc_weather/features/domain/entities/weather.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:weather_clean_architecture_tdd/data/models/weather_model.dart';
-import 'package:weather_clean_architecture_tdd/domain/entities/weather.dart';
-
 import '../../helpers/json_reader.dart';
 
 void main() {
